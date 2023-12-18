@@ -1,10 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import rabbit_png from '../images/rabbit.png'
 
 const References = () => {
   return (
     <div id="references" className="reference">
       <p className="title">Reference</p>
-      <div >
+      <div>
         <Container>
           <div className="reference-container">
             <Row>
@@ -12,13 +13,13 @@ const References = () => {
                 <div className="circle">
                   <img
                     className="img-circle"
-                    src="./../rabbit.png"
+                    src={rabbit_png}
                     alt="reference1"
                   />
                 </div>
               </Col>
               <Col xs={12} md={9} xl={9}>
-                <p className='reference1'>
+                <p className="reference1">
                   It was an absolute pleasure to work with Suwon. One of her
                   many talents is that she’s great at communicating with others
                   and coordinating multiple parties. Always willing to pull a
