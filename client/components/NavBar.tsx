@@ -1,9 +1,11 @@
+import blogLog from '../images/blog-log.png'
+
 const NavBar = () => {
   return (
     <nav>
       <div className="line"></div>
       <a href="/">
-        <img id="home" src="./../blog-log.png" alt="number1" />
+        <img id="home" src={blogLog} alt="number1" />
       </a>
       <ul>
         <li>
