@@ -1,5 +1,4 @@
 import MySkill from '../components/MySkill.tsx'
-import References from './References.tsx'
 
 const About = () => {
   return (

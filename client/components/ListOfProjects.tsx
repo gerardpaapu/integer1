@@ -5,7 +5,7 @@ const groupProjects = [
     title: 'LUXROOM',
     explain: `User-friendly web platform for buying chairs, featuring an intuitive interface to explore and purchase products, view detailed descriptions, and easily manage shopping carts for logged-in users`,
     url: 'https://luxloom.pushed.nz/',
-    src: '../../Public/home/home1.png',
+    src: '../../home/home1.png',
     skills:
       'TypeScript · JavaScript · React.js · SQLite · Express.js · Knex.js · Docker · CSS · HTML5 · Node.js',
   },
@@ -13,7 +13,7 @@ const groupProjects = [
     title: 'IntelliChef',
     explain: `Designed to help you decide what to cook based on the ingredients you have in your kitchen. It utilizes the ChatGPT API and React to provide a seamless experience in generating, saving, and managing recipes`,
     url: 'https://intelli-chef.pushed.nz/',
-    src: '../../Public/home/home2.png',
+    src: '../../home/home2.png',
     skills:
       'TypeScript · JavaScript · React.js · SQLite · Express.js · Knex.js · Docker · CSS · HTML5 · Node.js',
   },
@@ -21,7 +21,7 @@ const groupProjects = [
     title: 'ArcadePulse',
     explain: `Discover a handpicked selection of games to keep you entertained during busy or dull moments. Dive in for a quick mental boost and enjoy the pulse of ArcadePulse!`,
     url: 'http://the-space-guys.devacademy.nz/',
-    src: '../../Public/home/home3.png',
+    src: '../../home/home3.png',
     skills: 'JavaScript · Matter.js · HTML5 · Vite· Node.js',
   },
 ]
