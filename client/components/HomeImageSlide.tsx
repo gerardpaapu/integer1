@@ -6,21 +6,21 @@ function HomeImageSlide() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../home1.png"
+          src="./../home1.png"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../home2.png"
+          src="./../home2.png"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../home3.png"
+          src="./../home3.png"
           alt="Third slide"
         />
       </Carousel.Item>

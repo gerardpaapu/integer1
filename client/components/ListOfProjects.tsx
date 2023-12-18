@@ -5,7 +5,7 @@ const groupProjects = [
     title: 'LUXROOM',
     explain: `User-friendly web platform for buying chairs, featuring an intuitive interface to explore and purchase products, view detailed descriptions, and easily manage shopping carts for logged-in users`,
     url: 'https://luxloom.pushed.nz/',
-    src: '../../home/home1.png',
+    src: './../home1.png',
     skills:
       'TypeScript · JavaScript · React.js · SQLite · Express.js · Knex.js · Docker · CSS · HTML5 · Node.js',
   },
@@ -13,7 +13,7 @@ const groupProjects = [
     title: 'IntelliChef',
     explain: `Designed to help you decide what to cook based on the ingredients you have in your kitchen. It utilizes the ChatGPT API and React to provide a seamless experience in generating, saving, and managing recipes`,
     url: 'https://intelli-chef.pushed.nz/',
-    src: '../../home/home2.png',
+    src: './../home2.png',
     skills:
       'TypeScript · JavaScript · React.js · SQLite · Express.js · Knex.js · Docker · CSS · HTML5 · Node.js',
   },
@@ -21,7 +21,7 @@ const groupProjects = [
     title: 'ArcadePulse',
     explain: `Discover a handpicked selection of games to keep you entertained during busy or dull moments. Dive in for a quick mental boost and enjoy the pulse of ArcadePulse!`,
     url: 'http://the-space-guys.devacademy.nz/',
-    src: '../../home/home3.png',
+    src: './../home3.png',
     skills: 'JavaScript · Matter.js · HTML5 · Vite· Node.js',
   },
 ]
@@ -50,7 +50,7 @@ const ListOfProjects = () => {
         </div>
         <div className="list-detail">
           <Row>
-          <Col sm={12} xl={6}>
+            <Col sm={12} xl={6}>
               <p className="title">{groupProjects[1].title}</p>
               <p className="date">Nov 2023</p>
               <p className="explain">{groupProjects[1].explain}</p>
@@ -68,7 +68,7 @@ const ListOfProjects = () => {
         </div>
         <div className="list-detail">
           <Row>
-          <Col sm={12} xl={6}>
+            <Col sm={12} xl={6}>
               <p className="title">{groupProjects[2].title}</p>
               <p className="date">Dec 2023 - Current</p>
               <p className="explain">{groupProjects[2].explain}</p>
